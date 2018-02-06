@@ -1,0 +1,121 @@
+#1 - UnitConversion.java - 10 points
+
+Write a Java program to convert from US units to metric units.
+
+Your user will have 3 options in a main menu
+
+Length
+Volume
+Temperature
+The length option will offer the user the option of converting from inches to centimeters or from centimeters to inches.
+
+The volume option will offer the user the option of converting from gallons to liters or from liters to gallons
+
+The temperature option will offer the user the option of converting from Fahrenheit to Celsius or from Celsius to Fahrenheit.
+
+The table of conversions is below.
+
+You are to do a functional decomposition here – at the very least have methods for input, for processing and for output.  The goal here is for main() to be self-documenting.  Follow the examples from class.
+
+You may choose to use JOptionPane for input and output as demonstrated in class.
+
+All output should be well-formatted.
+
+ 
+
+ 
+
+A run of your program might look like this (if you were using System.out.println and Scanner) – user input is shown in red:
+
+Conversion options:
+
+Length
+Volume
+Temperature
+Which conversion would you like to perform? 1
+
+You have chosen length conversion.
+
+Conversion options:
+
+Inches to centimeters
+Centimeters to inches
+Which conversion would you like? 2
+
+Enter the number of centimeters : 5
+
+5 centimeters is equal to 1.968505 inches
+
+ 
+
+ 
+
+Conversion Table
+
+Convert from
+
+Inches to centimeters and reverse
+
+1in = 2.54cm
+
+0.393701 in  =   1 cm
+
+Gallons to liters and reverse
+
+1 gallon = 3.78541 liters
+
+0.264172 gallons = 1 liter                  
+
+Temperature Fahrenheit to Celsius and reverse
+
+Celsius  = (fahrenheit – 32) * 5 / 9
+
+fahrenheit = Celsius   * 9/5 + 32
+
+ 
+
+#2 WarYears.java - 7 points
+
+Write a Java program to determine the name of the war that was happening at the time the user requests.
+
+The user will be requested to input a year.  Your program will determine and output the name of the war that was happening at that time.  Use the War Chart below for determining the war during the year input.
+
+Again, good functional decomposition is required here.  Even if you are tempted to put all tasks in one method, do not do it!  One method for input, one method for processing, one method for output.
+
+A sample run of your program might look like this (if you were using System.out.println and Scanner) – user input is shown in red:
+
+Which year? 1920
+
+There was no war going on in 1920.
+
+A second run might look like this:
+
+Which year:  1915
+
+World War 1 was happening in 1915.
+
+The War chart
+
+American Revolution   1775 – 1783
+
+War of 1812    (1812–1815)
+
+Mexican–American War  (1846–1848)
+
+American Civil War  (1861–1865)
+
+World War I  (1914–1918)
+
+World War II  (1939–1945)
+
+Korean War (1950–1953)
+
+Vietnam War (1965–1973)
+
+Gulf War (1990–1991)
+
+Bosnian War (1992–1995)
+
+Iraq War (2003–2011)
+
+American-led Intervention in Iraq (2014–2017)
